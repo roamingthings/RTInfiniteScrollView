@@ -12,6 +12,6 @@
     IBOutlet UIScrollView *_testScroller;
 }
 
-- (UIView *)infiniteScrollView:(RTInfiniteScrollView *)infiniteScrollView tileForIndex:(NSUInteger)index;
+- (UIView *)infiniteScrollView:(RTInfiniteScrollView *)infiniteScrollView tileForIndex:(NSInteger)index;
 
 @end

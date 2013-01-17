@@ -36,7 +36,7 @@
 
 #pragma mark - RTInfiniteScrollViewDataSource protocol
 
-- (UIView *)infiniteScrollView:(RTInfiniteScrollView *)infiniteScrollView tileForIndex:(NSUInteger)index
+- (UIView *)infiniteScrollView:(RTInfiniteScrollView *)infiniteScrollView tileForIndex:(NSInteger)index
 {
     UILabel *tileView = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 125, 80)];
 
